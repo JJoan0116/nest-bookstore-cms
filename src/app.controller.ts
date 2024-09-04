@@ -1,14 +1,4 @@
-import {
-  Controller,
-  Get,
-  HttpException,
-  HttpStatus,
-  Injectable,
-  ParseIntPipe,
-  Query,
-  UseInterceptors,
-} from '@nestjs/common';
-import { UserService } from './user/user.service';
+import { Controller, Get, Query } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
